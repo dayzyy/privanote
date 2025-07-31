@@ -7,10 +7,10 @@
 
 ## Technologies used
 
--**Docker**
--**uv**
--**npm**
+- **Docker**
+- **uv**
+- **npm**
 
--**Django**
--**React**
--**TailwindCSS**
+- **Django**
+- **React**
+- **TailwindCSS**

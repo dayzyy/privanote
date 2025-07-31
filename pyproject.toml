@@ -4,4 +4,8 @@ version = "0.1.0"
 description = "A simple, self-hosted note-taking app with a web-based GUI, SQLite backend and a local REST API for communication."
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "django>=5.2.4",
+    "djangorestframework>=3.16.0",
+    "markdown>=3.8.2",
+]
