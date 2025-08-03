@@ -1,7 +1,7 @@
-import './App.css'
+import './index.css'
 
-const App = _ => {
-	return <div>Luka Mania - Privanote</div>
+const App = () => {
+	return <div className='text-white'>Luka Mania - Privanote</div>
 }
 
 export default App
