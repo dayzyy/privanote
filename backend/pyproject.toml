@@ -1,7 +1,7 @@
 [project]
-name = "privanote"
+name = "backend"
 version = "0.1.0"
-description = "A simple, self-hosted note-taking app with a web-based GUI, SQLite backend and a local REST API for communication."
+description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
