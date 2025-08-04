@@ -1,0 +1,27 @@
+# Local virtual environments
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+
+# macOS files
+.DS_Store
+
+# Git
+.git/
+.gitignore
+
+# Python version file
+.python-version
+
+# Tests or local data (optional, depending on project)
+tests/
+*.log
