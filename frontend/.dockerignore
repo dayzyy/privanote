@@ -1,0 +1,29 @@
+# Node modules (will be reinstalled in container)
+node_modules
+**/node_modules
+
+# Vite & React build output
+dist
+build
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS / editor / tooling stuff
+.DS_Store
+.env
+.env.local
+*.swp
+*.swo
+*.bak
+*.tmp
+.idea/
+.vscode/
+*.log
+
+# Dockerfiles themselves (optional)
+Dockerfile*
+.dockerignore
