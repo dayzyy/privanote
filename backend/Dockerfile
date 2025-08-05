@@ -1,6 +1,9 @@
 # Use the uv base image with Python and uv preinstalled
 FROM ghcr.io/astral-sh/uv:alpine
 
+# Set the env variable to enable logs
+ENV PYTHONUNBUFFERED=1
+
 # Set the working directory in the container
 WORKDIR /usr/local/app
 
@@ -17,4 +20,4 @@ COPY ./ ./
 EXPOSE 8000
 
 # Start the server
-CMD ["uv", "run", "python", "manage.py", "runserver"]
+CMD ["uv", "run", "python", "manage.py", "runserver", "0.0.0.0:8000"]
